@@ -1,0 +1,4 @@
+@echo off
+
+REM This is a comment
+echo Hello, world!

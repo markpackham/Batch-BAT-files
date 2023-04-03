@@ -1,0 +1,11 @@
+REM Moves all files in a current directory by their filename into sub folders name from A to Z based on the the first letter of the filename.
+
+@echo off
+setlocal EnableDelayedExpansion
+
+for %%a in (*) do (
+    set firstLetter=%%~na
+    set firstLetter=!firstLetter:~0,1!
+    md "!firstLetter!" 2>nul
+    move "%%a" "!firstLetter!"
+)
