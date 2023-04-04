@@ -1,0 +1,1 @@
+These need to be run in Bash and are geared more to Linux operating systems

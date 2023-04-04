@@ -1,0 +1,2 @@
+# Find all folders in the current directory/folder called "SomeFolderName"
+find . -name SomeFolderName -type d
