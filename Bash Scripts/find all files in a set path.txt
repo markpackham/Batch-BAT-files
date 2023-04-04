@@ -1,0 +1,5 @@
+# Find all files in a given path
+# The ** means it doesn't mater how many directories you have to go down
+# It is looking for any name PNG file within this path
+# Look down any number of directories providing there is at least one called "someFolder" for the desired file type
+find . -path '**/someFolder/**/*.png'
