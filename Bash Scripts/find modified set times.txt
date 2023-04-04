@@ -1,0 +1,2 @@
+# find files and folders that have been modified in 4 days
+find . -mtime -4
