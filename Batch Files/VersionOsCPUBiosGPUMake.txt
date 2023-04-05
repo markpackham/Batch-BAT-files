@@ -1,5 +1,6 @@
 REM Show me OS, CPU, Bios and GPU version and the Manufacturer
-REM the OS & Manufacturer isn't reliable since it differs from what Settings > System > About tells me
+REM the OS isn't reliable since it differs from what Settings > System > About tells me
+REM also if it's custom made the manufacturer may differ from what's in Settings > System > About
 
 @echo off
 echo Operating System Version:
