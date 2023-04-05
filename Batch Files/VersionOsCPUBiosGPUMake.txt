@@ -1,0 +1,19 @@
+REM Show me OS, CPU, Bios and GPU version and the Manufacturer
+REM the OS & Manufacturer isn't reliable since it differs from what Settings > System > About tells me
+
+@echo off
+echo Operating System Version:
+ver
+echo.
+echo CPU:
+wmic cpu get name
+echo.
+echo BIOS Version:
+wmic bios get smbiosbiosversion
+echo.
+echo GPU:
+wmic path win32_VideoController get name
+echo.
+echo Computer Manufacturer:
+wmic computersystem get manufacturer
+pause
